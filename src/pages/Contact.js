@@ -36,7 +36,6 @@ const Contact = () => {
         <a href={myCV} download="Matt Jones C.V 2023.pdf">
           <em className='text--peachy'><b>Download my CV</b></em>
         </a>
-        {/* icon drop */}
         <div className='iconDrop flex justify-center py-8 mb-16'>
           <a href='https://github.com/Matt-Jones-Developer'>
             <img className='github p-2'

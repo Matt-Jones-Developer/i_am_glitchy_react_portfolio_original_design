@@ -4,21 +4,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import NavTabs from "./NavTabs";
 import codeIcon from "../assets/icons/coder_icn.png";
-import styles from "./styles/NavBar.module.css";
+// import styles from "./styles/NavBar.module.css";
 import "../App.css";
 import myCV from "../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 const NavBar = () => {
+
+  const [toggle, setToggle] = useState(false);
+  // handle toggles function
+  const handleToggle = () => setToggle(!toggle);
   // init useHistory
   const href = useHref();
 
   // handle side toggle navs onClick
   const handleLinkClick = () => {
-    // setToggle(false);
+    setToggle(false);
   };
 
   // handle external CV link
@@ -30,9 +33,15 @@ const NavBar = () => {
   return (
     <>
       {/* build the NavBar */}
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="dark"
+        variant="dark"
+        sticky="top"
+      >
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <div className="flex items-center">
               {/* Nav Icon btn and name link */}
               <Link to={href} className="flex items-center">
@@ -58,9 +67,11 @@ const NavBar = () => {
             <Nav className="me-auto nav">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
+              {/* <Nav.Link href="/skills">Skills</Nav.Link> */}
               <Nav.Link href="/projects">Projects</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
+            {/* <NavTabs /> */}
             <Nav>
               <Nav.Link href="/cv">CV</Nav.Link>
             </Nav>

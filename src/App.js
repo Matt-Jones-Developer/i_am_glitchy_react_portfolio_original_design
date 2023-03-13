@@ -6,7 +6,7 @@ import Squares from './components/SquaresAnim';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Skills from './pages/Skills';
+// import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import './App.css'
@@ -31,7 +31,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} index={true} />
         <Route path="/about" element={<Layout><About /></Layout>} />
-        <Route path="/skills" element={<Layout><Skills /></Layout>} />
+        {/* <Route path="/skills" element={<Layout><Skills /></Layout>} /> */}
         <Route path="/projects" element={<Layout><Projects /></Layout>} />
         <Route path="/Contact" element={<Layout><Contact /></Layout>} />
       </Routes>

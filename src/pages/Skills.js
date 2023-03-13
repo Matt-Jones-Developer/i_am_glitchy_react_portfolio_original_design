@@ -7,7 +7,7 @@ const Skills = () => {
 
   useEffect(() => {
     // Scroll to a specific element on the page
-    const targetElement = document.querySelector("#target");
+    const targetElement = document.querySelector("/target");
     targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
   }, []);
 
