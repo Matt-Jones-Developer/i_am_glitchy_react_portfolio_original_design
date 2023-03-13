@@ -53,7 +53,7 @@ const NavBar = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto nav">
+            <Nav className="me-auto nav custom-nav">
               <Link to="/">Home</Link>
               <Link to="/about">About</Link>
               {/* <Nav.Link href="/skills">Skills</Nav.Link> */}

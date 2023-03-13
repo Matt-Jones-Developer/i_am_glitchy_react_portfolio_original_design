@@ -100,3 +100,7 @@ a:hover {
 .btnCTA {
   background-color: var(--purps);
 }
+
+a {
+  margin-right: 1rem;
+}

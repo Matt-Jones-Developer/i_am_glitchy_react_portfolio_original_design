@@ -16,7 +16,7 @@ nav li a:hover {
   color: var(--lumi-pink);
 }
 
-.nav Link {
+.custom-nav Link {
   margin-right: 1rem;
 }
 
