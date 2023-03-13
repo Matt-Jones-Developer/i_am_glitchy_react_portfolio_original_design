@@ -1,7 +1,7 @@
 {
   "name": "portfolio-skeleton",
   "version": "0.1.0",
-  "homepage": "https://github.com/Matt-Jones-Developer/i_am_glitchy_react_portfolio_original_design",
+  "homepage": "https://gitname.github.io/i_am_glitchy_react_portfolio_original_design",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
@@ -52,6 +52,6 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "tailwind.config.js",
   "keywords": [],
-  "author": "",
+  "author": "M Jones",
   "license": "ISC"
 }

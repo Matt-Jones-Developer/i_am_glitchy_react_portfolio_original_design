@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="i_am_glitchy_react_portfolio_original_design">
       <NavBar />
       <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} index={true} />
