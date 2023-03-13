@@ -4,3 +4,12 @@
   scroll-behavior: smooth;
   transition-duration: 1.5s;
 } */
+
+.button {
+  text-align: center;
+  margin: 0;
+}
+.button:hover {
+  color: white;
+  background-color: var(--lumi-green);
+}

@@ -49,15 +49,15 @@ const Projects = () => {
                 align-items-center justify-center m-4 p-4">
                   {/* about and 2 btn links */}
                   <h3 className="text-white font-bold text-xl mb-2">{project.title}</h3>
-                  <p className="text-white text-base">{project.desc}</p>
-                  <div className="flex justify-center items-end mt-4 p-4">
-                    <button className="btn btn-primary text-white mx-auto">
-                      <a href={project.live} target="_blank" rel="noopener noreferrer">
+                  <p className="text-white text-base text-center">{project.desc}</p>
+                  <div className="flex justify-center items-end mt-4 p-4 mx-auto">
+                    <button className="btn text-dark bg-lumi-green text-center mx-auto">
+                      <a className="button" href={project.live} target="_blank" rel="noopener noreferrer">
                         Live
                       </a>
                     </button>
-                    <button className="btn bg-lumi-pink text-white mx-auto">
-                      <a href={project.code} target="_blank" rel="noopener noreferrer">
+                    <button className="btn bg-lumi-pink text-white text-center mx-auto">
+                      <a className="button" href={project.code} target="_blank" rel="noopener noreferrer">
                         Code
                       </a>
                     </button>

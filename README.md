@@ -112,7 +112,7 @@ The portfolio highlights about me, shows off my best projects and uses a data.js
 ## Installation
 
 The build is deployed and ready to view it, head to: 
-[ "i am glitchy" - react portfolio](https://matt-jones-developer.github.io/i_am_glitchy_react_tailwind_portfolio/) 
+[ "i am glitchy" - react portfolio](https://matt-jones-developer.github.io/i_am_glitchy_react_portfolio_original_design/) 
 
 ### Installation Instructions
 
