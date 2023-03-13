@@ -1,0 +1,42 @@
+/* .container {
+  margin: 0 auto;
+}
+
+.hero .container {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 2rem;
+} */
+
+.heroSection {
+  margin-top: 1rem;
+}
+
+.heroInfo {
+  margin-top: -2rem;
+}
+
+.btnCTA:hover {
+  background-color: var(--bs-dark);
+}
+
+@media screen and (min-width: 1240px) {
+  .heroInfo h1 {
+    font-size: 74px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .heroInfo {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .heroInfo h1 {
+    font-size: 44px;
+  }
+}

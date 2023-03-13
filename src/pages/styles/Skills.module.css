@@ -1,0 +1,5 @@
+.skillSection {
+  scroll-margin-top: 50px;
+  scroll-behavior: smooth;
+  transition-duration: 2.5s;
+}

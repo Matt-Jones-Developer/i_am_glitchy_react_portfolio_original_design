@@ -1,0 +1,48 @@
+.footer {
+  background-color: var(--bg-dark);
+}
+
+.footer code {
+  font-size: 10px;
+  color: var(--aqua);
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.footer strong {
+  color: var(--peachy);
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.artist {
+  font-size: 12px;
+}
+
+.artist a {
+  color: var(--aqua);
+}
+
+
+/* footer icons */
+
+.ulIcons {
+  margin: 0 auto;
+}
+
+.ulIcons img {
+  width: 24px;
+}
+
+.ulIcons>li {
+  display: inline-block;
+  padding: 1rem 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    font-size: 14px;
+    padding: 0 1rem;
+    bottom: 0;
+  }
+}
