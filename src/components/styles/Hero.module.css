@@ -1,10 +1,18 @@
 
-.heroSection {
+.devTitle {
+  color: var(--purps);
+}
+.hero {
   margin-top: 1rem;
+  margin: 0 auto;
 }
 
 .heroInfo {
   margin-top: -2rem;
+}
+
+.btnCTA {
+  margin-top: 2rem;
 }
 
 .btnCTA:hover {

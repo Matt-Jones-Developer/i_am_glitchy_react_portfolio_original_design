@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import ghostKraken from "../assets/png/ghost_kraken.png";
+import styles from "./styles/Hero.module.css"
 
 const Hero = () => {
   // to projects scroll
@@ -13,10 +14,10 @@ const Hero = () => {
   };
 
   return (
-    <section className="hero flex mx-auto">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center lg:items-stretch motion-safe:animate-fadeIn">
-        <div className="title-info lg:mr-20">
-          <h1>Matt Jones</h1>
+    <section className="flex mx-auto items-center justify-center">
+      <div className="container mx-auto flex flex-col md:flex-col-2 items-center motion-safe:animate-fadeIn">
+        <div className="title-info lg:mr-20 lg:text-left">
+          <h1 className={`${styles.devTitle}`}>Matt Jones</h1>
           <h2>Front End Developer</h2>
           <p className="hero-p">Your new hire for awesome project builds!</p>
           {/* CTA projects */}
