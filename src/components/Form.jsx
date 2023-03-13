@@ -71,7 +71,7 @@ class Form extends Component {
         <div
           className={`${styles.wrapper} rounded d-flex align-items-stretch -mt-16`}
         >
-          <div className="bg-primary p-8 mt-8">
+          <div className="bg-dark p-8 mt-8">
             <div className="flexTop flex align-items-center justify-between">
               <div className="text-white">
                 <i className="fa-solid fa-envelope fa-3x"></i>

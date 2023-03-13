@@ -16,6 +16,10 @@ nav li a:hover {
   color: var(--lumi-pink);
 }
 
+.nav Link {
+  margin-right: 1rem;
+}
+
 .nav Link:hover {
   color: var(--lumi-pink);
 }

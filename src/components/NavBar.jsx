@@ -1,8 +1,7 @@
-import React, { useState } from "react";
 import { useHref } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
-import NavTabs from "./NavTabs";
+// import NavTabs from "./NavTabs";
 import codeIcon from "../assets/icons/coder_icn.png";
 // import styles from "./styles/NavBar.module.css";
 import "../App.css";
@@ -12,17 +11,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
-
-  const [toggle, setToggle] = useState(false);
-  // handle toggles function
-  const handleToggle = () => setToggle(!toggle);
-  // init useHistory
   const href = useHref();
-
-  // handle side toggle navs onClick
-  const handleLinkClick = () => {
-    setToggle(false);
-  };
 
   // handle external CV link
   function handleCVClick() {
@@ -41,10 +30,10 @@ const NavBar = () => {
         sticky="top"
       >
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} to="/">
             <div className="flex items-center">
               {/* Nav Icon btn and name link */}
-              <Link to={href} className="flex items-center">
+              <Link href={href} className="flex items-center">
                 <img
                   className="mr-5 animate-pulse"
                   src={`${codeIcon}`}
@@ -65,16 +54,21 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto nav">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
+              <Link to="/">Home</Link>
+              <Link to="/about">About</Link>
               {/* <Nav.Link href="/skills">Skills</Nav.Link> */}
-              <Nav.Link href="/projects">Projects</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
+              <Link
+                to={`${myCV}`}
+                onClick={handleCVClick}
+                target="_blank"
+                rel="noreferrer"
+              >
+                CV
+              </Link>
             </Nav>
             {/* <NavTabs /> */}
-            <Nav>
-              <Nav.Link href="/cv">CV</Nav.Link>
-            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>

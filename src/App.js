@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Squares from './components/SquaresAnim';
 import Footer from './components/Footer';
-import Home from './pages/Home';
 import About from './pages/About';
 // import Skills from './pages/Skills';
 import Projects from './pages/Projects';
@@ -33,7 +33,7 @@ const App = () => {
         <Route path="/about" element={<Layout><About /></Layout>} />
         {/* <Route path="/skills" element={<Layout><Skills /></Layout>} /> */}
         <Route path="/projects" element={<Layout><Projects /></Layout>} />
-        <Route path="/Contact" element={<Layout><Contact /></Layout>} />
+        <Route path="/contact" element={<Layout><Contact /></Layout>} />
       </Routes>
     </Router>
   );

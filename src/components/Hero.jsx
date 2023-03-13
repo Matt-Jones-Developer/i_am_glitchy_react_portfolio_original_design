@@ -1,6 +1,6 @@
+import React from 'react'
 import { Link } from "react-router-dom";
 import ghostKraken from "../assets/png/ghost_kraken.png";
-import "./styles/Hero.module.css";
 
 const Hero = () => {
   // to projects scroll
