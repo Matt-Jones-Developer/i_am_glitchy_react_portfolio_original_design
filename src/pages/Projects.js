@@ -46,7 +46,7 @@ const Projects = () => {
               </div>
               <div className="project-info">
                 <div className="card bg-dark shadow-lg rounded-lg overflow-hidden
-                align-items-center justify-center m-4 p-4">
+                align-items-center justify-center text-center m-4 p-4">
                   {/* about and 2 btn links */}
                   <h3 className="text-white font-bold text-xl mb-2">{project.title}</h3>
                   <p className="text-white text-base text-center">{project.desc}</p>

@@ -1,7 +1,6 @@
 import { useHref } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
-// import NavTabs from "./NavTabs";
 import codeIcon from "../assets/icons/coder_icn.png";
 // import styles from "./styles/NavBar.module.css";
 import "../App.css";
@@ -9,6 +8,7 @@ import myCV from "../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+// import NavTabs from "./NavTabs";
 
 const NavBar = () => {
   const href = useHref();
@@ -33,7 +33,7 @@ const NavBar = () => {
           <Navbar.Brand as={Link} to="/">
             <div className="flex items-center">
               {/* Nav Icon btn and name link */}
-              <Link href={href} className="flex items-center">
+              <div className="flex items-center">
                 <img
                   className="mr-5 animate-pulse"
                   src={`${codeIcon}`}
@@ -48,17 +48,27 @@ const NavBar = () => {
                   }}
                   title="keep tapping me to reset the coloured squares!"
                 />
-              </Link>
+              </div>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto nav custom-nav">
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              {/* <Nav.Link href="/skills">Skills</Nav.Link> */}
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/" style={{ marginRight: ".5rem" }}>
+                Home
+              </Link>
+              <Link to="/about" style={{ marginRight: ".5rem" }}>
+                About
+              </Link>
+              <Link to="/skills" style={{ marginRight: ".5rem" }}>
+                Skills
+              </Link>
+              <Link to="/projects" style={{ marginRight: ".5rem" }}>
+                Projects
+              </Link>
+              <Link to="/contact" style={{ marginRight: ".5rem" }}>
+                Contact
+              </Link>
               <Link
                 to={`${myCV}`}
                 onClick={handleCVClick}
@@ -67,8 +77,8 @@ const NavBar = () => {
               >
                 CV
               </Link>
+              {/* <NavTabs /> */}
             </Nav>
-            {/* <NavTabs /> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
