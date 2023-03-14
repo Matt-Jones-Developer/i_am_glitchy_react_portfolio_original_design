@@ -1,5 +1,5 @@
 
-import styles from "./styles/Projects.module.css"
+// import styles from "./styles/Projects.module.css"
 import cristalVision from "../assets/png/cristalvision.png";
 import musicForYou from "../assets/png/musicforyou_api.png";
 import gameBoy from "../assets/png/gameboy_site.png";
@@ -27,7 +27,7 @@ const Projects = () => {
     <section className="projects">
       <div className="container flex justify-center">
         <div className="title">
-          <h2 className="text-white">
+          <h2 className="text-white pb-4">
             Projects
           </h2>
           <p className="pb-5 text-white">

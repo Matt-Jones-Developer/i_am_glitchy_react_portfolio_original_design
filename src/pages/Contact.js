@@ -22,7 +22,7 @@ const Contact = () => {
     <section className={`${styles.section} 
       container flex p-4 px-5 py-24`}>
       <div className={`${styles.contactMe} mx-auto text-white md:w-[50%]`}>
-        <h2 className="contact-title">
+        <h2 className="contact-title pb-4">
           Contact
         </h2>
         <p className="text-white contactIntro">

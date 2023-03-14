@@ -20,7 +20,7 @@ const Skills = () => {
       } id="skills">
         <div
           className="container">
-          <h2 className="skills-title text-center mx-auto text-6xl">
+          <h2 className="skills-title text-center mx-auto text-6xl pb-4">
             Skills & Languages
           </h2>
           <p className="text-white skillsIntro">
