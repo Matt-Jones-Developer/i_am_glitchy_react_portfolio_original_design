@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
 import ghostKraken from "../assets/png/ghost_kraken.png";
-import styles from "./styles/Hero.module.css"
+import styles from "./styles/Hero.module.css";
 
 const Hero = () => {
   // to projects scroll
@@ -14,9 +14,11 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex mx-auto items-center justify-center">
-      <div className="container mx-auto flex flex-col md:flex-col-2 items-center motion-safe:animate-fadeIn">
-        <div className="title-info lg:mr-20 lg:text-left">
+    <section
+      className={`${styles.heroSection} flex mx-auto items-center justify-center`}
+    >
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center motion-safe:animate-fadeIn">
+        <div className="title-info lg:mr-20 lg:text-left lg:ml-20">
           <h1 className={`${styles.devTitle}`}>Matt Jones</h1>
           <h2>Front End Developer</h2>
           <p className="hero-p">Your new hire for awesome project builds!</p>
@@ -29,11 +31,11 @@ const Hero = () => {
             My Projects
           </Link>
         </div>
-        <div>
+        <div className="lg:ml-20">
           <img
             src={ghostKraken}
             alt="ghost kraken cartoon art by junior betta"
-            className="animate-floating lg:ml-20"
+            className="animate-floating"
             width="600px"
             height="600px"
           />

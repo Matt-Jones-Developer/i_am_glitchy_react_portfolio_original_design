@@ -1,0 +1,36 @@
+
+.aboutImg {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.aboutImg img {
+  padding-top: 2rem;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about .container {
+    flex-direction: column-reverse;
+  }
+
+  .about-content {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .aboutImg {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .aboutImg img {
+    width: 100%;
+    height: auto;
+  }
+}

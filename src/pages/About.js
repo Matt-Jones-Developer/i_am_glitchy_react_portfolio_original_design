@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className="about flex pt-24 pb-24 bg-dark">
-      <div className="container flex mx-auto ml-auto mr-auto gap-8">
+    <section className={`${styles.aboutImg} about flex pt-24 pb-24 bg-dark`}>
+      <div className="container flex justify-center items-center flex-col w-full">
         <div className="about-content">
-          <h2 className="title">About Glitchy</h2>
+          <h2 className="title pb-4">About Glitchy</h2>
           <p className="mb-6">
             Hi, my name is Matt Jones, a.k.a glitchyGhost. I'm a
             Frontend Developer and UI designer with an eye for detail.
@@ -24,17 +24,17 @@ const About = () => {
             In my spare time I like to play <em>Thrash Metal</em> on my guitar.
             I am obsessed with coding and spend a lot of my time learning new{' '}
             <Link to="/skills"
-            ><em style={{ color: 'orange' }}><span>skills <i className="fa-solid fa-arrow-right"></i></span></em>
+            ><em style={{ color: 'orange' }}><span className="animate-pulse">skills <i className="fa-solid fa-arrow-right"></i></span></em>
             </Link>
           </p>
         </div>
-        <div className={`${styles.aboutImg}`}>
+        <div className={`${styles.aboutImg} md:w-1/2`}>
           <img
             src={AboutImg}
             width="440px"
             height="440px"
             alt="mugshot selfie"
-            className="lgw-[100%] md:ml-auto"
+            className="lgw-[80%] md:ml-auto"
           />
         </div>
       </div>
