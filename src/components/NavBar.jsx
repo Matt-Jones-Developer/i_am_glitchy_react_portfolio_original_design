@@ -2,7 +2,7 @@ import { useHref } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import codeIcon from "../assets/icons/coder_icn.png";
-// import styles from "./styles/NavBar.module.css";
+import styles from "./styles/NavBar.module.css";
 import "../App.css";
 import myCV from "../assets/pdf/Matt Jones C.V 2023 (Google Docs).pdf";
 import Container from "react-bootstrap/Container";
@@ -52,7 +52,8 @@ const NavBar = () => {
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Collapse id="responsive-navbar-nav"
+          className={`${styles.navbarCollapse}`}>
             <Nav className="me-auto nav custom-nav">
               <Link to="/" style={{ marginRight: ".5rem" }}>
                 Home

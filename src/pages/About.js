@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className={`${styles.aboutImg} about flex pt-24 pb-24 bg-dark`}>
-      <div className="container flex justify-center items-center flex-col w-full">
-        <div className="about-content">
+    <section className={`${styles.aboutSection} flex pt-24 pb-24 bg-dark`}>
+      <div className="container mx-auto w-full justify-center items-center">
+        <div className={`${styles.aboutContent}`}>
           <h2 className="title pb-4">About Glitchy</h2>
           <p className="mb-6">
             Hi, my name is Matt Jones, a.k.a glitchyGhost. I'm a
             Frontend Developer and UI designer with an eye for detail.
             I love building intuitive, beautiful websites and applications using
             <b> JavaScript, React & Tailwind.</b>
-            <br/>
+            <br />
             With decent front-end skills in React.js, Tailwind, SaSS, CSS3 & HTML5,
             I also love technical back-end tasks and problem-solving.
             I am proficient in Node.js, Python, mySQL, MongoDB, Github and CLI.

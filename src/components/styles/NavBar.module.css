@@ -24,6 +24,10 @@ nav li a:hover {
   color: var(--lumi-pink);
 }
 
+.navbar-collapse {
+  opacity: 0.5;
+}
+
 .nameTag {
   color: var(--purps) !important;
 }

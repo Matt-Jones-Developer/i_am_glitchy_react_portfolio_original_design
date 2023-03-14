@@ -9,7 +9,7 @@ import Form from '../components/Form'
 
 const Contact = () => {
 
-  // always auto srcoll hook
+  // always auto scroll hook
   useEffect(() => {
     window.scrollTo({
       top: 0,

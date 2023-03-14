@@ -5,10 +5,13 @@ import styles from "./styles/Skills.module.css"
 
 const Skills = () => {
 
+  // always auto scroll hook
   useEffect(() => {
-    // Scroll to a specific element on the page
-    const targetElement = document.querySelector("#skills");
-    targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
   }, []);
 
   return (
