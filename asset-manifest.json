@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/i_am_glitchy_react_portfolio_original_design/static/css/main.2735c3e7.css",
-    "main.js": "/i_am_glitchy_react_portfolio_original_design/static/js/main.1fdfddb9.js",
+    "main.css": "/i_am_glitchy_react_portfolio_original_design/static/css/main.8703a9fa.css",
+    "main.js": "/i_am_glitchy_react_portfolio_original_design/static/js/main.21f7b3f9.js",
     "static/js/787.47a79710.chunk.js": "/i_am_glitchy_react_portfolio_original_design/static/js/787.47a79710.chunk.js",
     "static/media/code_boss_intro_loop.gif": "/i_am_glitchy_react_portfolio_original_design/static/media/code_boss_intro_loop.d945121ed13f3cc8f396.gif",
+    "static/media/devicon.svg?biu5f3": "/i_am_glitchy_react_portfolio_original_design/static/media/devicon.f715b4139afc5236a6e6.svg",
+    "static/media/devicon.eot?biu5f3": "/i_am_glitchy_react_portfolio_original_design/static/media/devicon.afa70020fddd5e5a3260.eot",
+    "static/media/devicon.woff?biu5f3": "/i_am_glitchy_react_portfolio_original_design/static/media/devicon.96fdfd136e8a467e1861.woff",
+    "static/media/devicon.ttf?biu5f3": "/i_am_glitchy_react_portfolio_original_design/static/media/devicon.b25739c2b9d15a53d60c.ttf",
     "static/media/github_lg_wht.png": "/i_am_glitchy_react_portfolio_original_design/static/media/github_lg_wht.9219cc6c16eccc922349.png",
     "static/media/code_unsplash-scaled.jpg": "/i_am_glitchy_react_portfolio_original_design/static/media/code_unsplash-scaled.6caebfafc11229ebeb47.jpg",
     "static/media/ghost_kraken.png": "/i_am_glitchy_react_portfolio_original_design/static/media/ghost_kraken.a25a1b079f9da7b4a765.png",
@@ -17,12 +21,12 @@
     "static/media/ghost_icon.png": "/i_am_glitchy_react_portfolio_original_design/static/media/ghost_icon.c0c4a7554ba5274d9f79.png",
     "static/media/slack_lg.png": "/i_am_glitchy_react_portfolio_original_design/static/media/slack_lg.89abef9ede0d8c6d5f28.png",
     "index.html": "/i_am_glitchy_react_portfolio_original_design/index.html",
-    "main.2735c3e7.css.map": "/i_am_glitchy_react_portfolio_original_design/static/css/main.2735c3e7.css.map",
-    "main.1fdfddb9.js.map": "/i_am_glitchy_react_portfolio_original_design/static/js/main.1fdfddb9.js.map",
+    "main.8703a9fa.css.map": "/i_am_glitchy_react_portfolio_original_design/static/css/main.8703a9fa.css.map",
+    "main.21f7b3f9.js.map": "/i_am_glitchy_react_portfolio_original_design/static/js/main.21f7b3f9.js.map",
     "787.47a79710.chunk.js.map": "/i_am_glitchy_react_portfolio_original_design/static/js/787.47a79710.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2735c3e7.css",
-    "static/js/main.1fdfddb9.js"
+    "static/css/main.8703a9fa.css",
+    "static/js/main.21f7b3f9.js"
   ]
 }
