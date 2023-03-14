@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/i_am_glitchy_react_portfolio_original_design/static/css/main.8703a9fa.css",
-    "main.js": "/i_am_glitchy_react_portfolio_original_design/static/js/main.21f7b3f9.js",
+    "main.css": "/i_am_glitchy_react_portfolio_original_design/static/css/main.59fd5745.css",
+    "main.js": "/i_am_glitchy_react_portfolio_original_design/static/js/main.cecdd6a0.js",
     "static/js/787.47a79710.chunk.js": "/i_am_glitchy_react_portfolio_original_design/static/js/787.47a79710.chunk.js",
     "static/media/code_boss_intro_loop.gif": "/i_am_glitchy_react_portfolio_original_design/static/media/code_boss_intro_loop.d945121ed13f3cc8f396.gif",
     "static/media/devicon.svg?biu5f3": "/i_am_glitchy_react_portfolio_original_design/static/media/devicon.f715b4139afc5236a6e6.svg",
@@ -21,12 +21,12 @@
     "static/media/ghost_icon.png": "/i_am_glitchy_react_portfolio_original_design/static/media/ghost_icon.c0c4a7554ba5274d9f79.png",
     "static/media/slack_lg.png": "/i_am_glitchy_react_portfolio_original_design/static/media/slack_lg.89abef9ede0d8c6d5f28.png",
     "index.html": "/i_am_glitchy_react_portfolio_original_design/index.html",
-    "main.8703a9fa.css.map": "/i_am_glitchy_react_portfolio_original_design/static/css/main.8703a9fa.css.map",
-    "main.21f7b3f9.js.map": "/i_am_glitchy_react_portfolio_original_design/static/js/main.21f7b3f9.js.map",
+    "main.59fd5745.css.map": "/i_am_glitchy_react_portfolio_original_design/static/css/main.59fd5745.css.map",
+    "main.cecdd6a0.js.map": "/i_am_glitchy_react_portfolio_original_design/static/js/main.cecdd6a0.js.map",
     "787.47a79710.chunk.js.map": "/i_am_glitchy_react_portfolio_original_design/static/js/787.47a79710.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8703a9fa.css",
-    "static/js/main.21f7b3f9.js"
+    "static/css/main.59fd5745.css",
+    "static/js/main.cecdd6a0.js"
   ]
 }
