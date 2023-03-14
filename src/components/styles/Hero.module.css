@@ -1,8 +1,8 @@
-
 .devTitle {
   color: var(--purps);
   font-family: 'Raleway', sans-serif;
 }
+
 .hero {
   margin-top: 1rem;
   margin: 0 auto;
@@ -21,8 +21,14 @@
 }
 
 @media screen and (min-width: 1240px) {
-  .heroInfo h1 {
+  .devTitle h1 {
     font-size: 74px;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .heroInfo h1 {
+    font-size: 66px;
   }
 }
 
@@ -30,13 +36,23 @@
   .heroSection {
     display: block;
   }
+
+  .devTitle h1 {
+    font-size: 44px;
+  }
+
   .heroInfo {
+    font-size: 55px;
     margin-top: 3rem;
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 400px) {
+  .Hero .devTitle h1 {
+    font-size: 30px;
+  }
+
   .heroInfo h1 {
-    font-size: 44px;
+    font-size: 34px;
   }
 }

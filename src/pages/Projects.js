@@ -25,7 +25,7 @@ const Projects = () => {
 
   return (
     <section className="projects">
-      <div className="container">
+      <div className="container flex justify-center">
         <div className="title">
           <h2 className="text-white">
             Projects
@@ -37,15 +37,15 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 m-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-4 mx-auto p-2">
         {projects.map((project, i) => {
           return (
             <div className="project-card" key={i}>
-              <div className="project-image">
+              <div className="project-image flex justify-center">
                 <img src={projectImages[project.id]} alt={project.title} />
               </div>
               <div className="project-info">
-                <div className="card bg-dark shadow-lg rounded-lg overflow-hidden
+                <div className="card bg-dark overflow-hidden
                 align-items-center justify-center text-center m-4 p-4">
                   {/* about and 2 btn links */}
                   <h3 className="text-white font-bold text-xl mb-2">{project.title}</h3>
